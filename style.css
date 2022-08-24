@@ -54,7 +54,7 @@ h1{
     display: flex;
     text-align: center;
     justify-content: center;
-    background-image: url("/src/Geleira_img.png");
+    background-image: url("https://s3.ca-central-1.amazonaws.com/sio4-files/headerImages/3%2B4+page.jpg");
     background-repeat: round;
     padding: 28vh;
 }

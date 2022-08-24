@@ -1,0 +1,203 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #79a2d6;
+}
+
+.header-div{
+    background-color: #A8DADC;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+
+.header-a{
+    display: inline-flex;
+    align-items: center;
+    color:#2D242B;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: .3s;
+}
+
+.header-a::before{
+    content: '';
+    background-color: #2D242B;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.header-a:hover{
+    transform: scale(110%);
+}
+
+h1{
+    font-family: "prompt", sans-serif;
+    font-size: 107px;
+    color: #2D242B;
+    text-align: center;
+    font-weight: 600;
+}
+
+.title-section{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-image: url("/src/geleira_wallpaper.jpg");
+    background-repeat: round;
+    padding: 28vh;
+}
+
+.title-div{
+    display: block;
+    background-color: #A8DADC;
+    border-radius: 15px;
+    width: 700px;
+    height: fit-content;
+    padding: 25px;    
+}
+
+h2{
+    font-family: "prompt", sans-serif;
+    font-size: 64px;
+    color: #2D242B;
+}
+
+.imagem-geleira{
+    width: 463px;
+    border-radius: 43px;
+    margin-top: 114px;
+    margin-bottom: 114px;
+}
+
+.title-branco{
+    color: #2D242B;
+    margin-top: 114px;
+    text-align: left;
+}
+
+.o-que-div{
+    width: 700px;
+}
+
+.o-que-p{
+    font-family: "prompt", sans-serif;
+    color: #2D242B;
+    margin-top: 26px;
+    font-size: 26px; 
+}
+
+.o-que-section{
+    background-color: #79a2d6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.causa-titulo{
+    font-family: "prompt", sans-serif;
+    color: #F1FAEE;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin: 30px;
+    width: 28vw;
+}
+
+.item-causa-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.causa-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #457B9D;
+    margin-top: 50px;
+    margin-bottom: 130px;
+    border-radius: 15px;
+    width: 404px;
+    height: 421px;
+}
+
+.causa-header{
+    margin: 60px;
+    color: #F1FAEE;
+}
+
+.text-causa{
+    font-family: "prompt", sans-serif;
+    color: #F1FAEE;
+    font-size: 32px;
+    text-align: center;
+    width: 350px;
+}
+
+.causas-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.causas-section{
+    background-color: #1D3557;
+    padding: 30px;
+}
+
+
+/* ################################################################################################################ */
+
+.custom-shape-divider-top-1661350229 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1661350229 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 61px;
+}
+
+.custom-shape-divider-top-1661350229 .shape-fill {
+    fill: #A8DADC;
+}
+
+.custom-shape-divider-bottom-1661349635 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1661349635 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 154px;
+}
+
+.custom-shape-divider-bottom-1661349635 .shape-fill {
+    fill: #A8DADC;
+}

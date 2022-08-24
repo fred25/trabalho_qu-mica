@@ -1,0 +1,45 @@
+.consequencias-section{
+    padding: 10px;
+}
+
+.consequencias-title{
+    color: #F1FAEE;
+    margin-top: 80px;
+}
+
+.consequencias-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.consequencia-h3{
+    color: #F1FAEE;
+    font-family: "prompt", sans-serif;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.consequencia-article{
+    display: flex;
+    align-items: center;
+    margin: 80px;
+}
+
+.gota{
+    height: 141px;
+    margin: 0 22px;
+}
+
+.consequencia-p{
+    color: #F1FAEE;
+    font-family: "prompt", sans-serif;
+    font-size: 20px;
+}
+
+.article-content{
+    margin-left: 30px;
+}
+
+img{
+    aspect-ratio: 1/1;
+}
